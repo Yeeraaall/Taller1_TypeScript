@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+
+}
+
+header{
+    background-color: rgb(36,162,184);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+header .logo img{
+    position: relative;
+    transition: 1.5s;
+    width: 70px;
+    height: 60px;
+}

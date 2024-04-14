@@ -6,9 +6,32 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' href='./style.css'>
-    <script src='main.js'></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <script type= "module" src="scripts/main.js"></script>
  </head>
  <body>
+   <header class="header"> 
+    <a href="#" class="logo"> <img src="./icono.png" alt="" /></a>
+      <h2>Tv Series</h2>
+   </header>
+
+
+   <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Channel</th>
+          <th scope="col">Seasons</th>
+        </tr>
+      </thead>
+      <tbody id="series-table">
+        <!-- Las filas de la tabla se llenarán dinámicamente con JavaScript -->
+      </tbody>
+    </table>
+    
+
     
  </body>
  </html>
