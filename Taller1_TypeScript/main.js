@@ -1,6 +1,8 @@
-import { series } from './data.js';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var data_js_1 = require("./data.js");
 var seriesTbody = document.getElementById('series');
-renderSeriesInTable(series);
+renderSeriesInTable(data_js_1.series);
 function renderSeriesInTable(series) {
     console.log('Desplegando series');
     series.forEach(function (serie) {

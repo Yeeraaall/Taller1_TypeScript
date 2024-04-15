@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Serie = void 0;
 var Serie = /** @class */ (function () {
     function Serie(id, nombre, channel, seasons, description, link, image) {
         this.id = id;
@@ -17,4 +20,4 @@ var Serie = /** @class */ (function () {
     }
     return Serie;
 }());
-export { Serie };
+exports.Serie = Serie;
